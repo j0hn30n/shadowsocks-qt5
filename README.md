@@ -14,3 +14,9 @@ dpkg -i libqtshadowsocks_1.10.0-1_amd64.deb
 dpkg -i libqtshadowsocks-dev_1.10.0-1_amd64.deb
 dpkg -i shadowsocks-qt5_2.8.0-1_amd64.deb
 ```
+#### 3.如果执行上面语句以后出现如下错误
+```
+dpkg: dependency problems prevent configuration of shadowsocks-qt5:
+ shadowsocks-qt5 depends on libqrencode3 (>= 3.2.0); however:
+  Package libqrencode3 is not installed.
+```
